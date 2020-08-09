@@ -5,7 +5,7 @@ import random as rd
 
 im = Image.open('image.jpg')
 img_array = np.asarray(im, dtype ='int64')
-
+      
 height= len(img_array)
 weight = len(img_array[0])
 
